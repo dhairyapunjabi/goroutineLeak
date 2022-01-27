@@ -9,7 +9,7 @@ import (
 	"github.com/dhairyapunjabi/goroutineLeak/concurrency"
 )
 
-func TestCoreHandleBalanceChangeEventWithFailureInWorkerPerform(t *testing.T) {
+func TestConcurrentProcessingOfTasks(t *testing.T) {
 
 	defer leaktest.Check(t)()
 
